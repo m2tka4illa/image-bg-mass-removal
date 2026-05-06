@@ -32,3 +32,8 @@ for file in input_dir.iterdir():
 
     print(f"Processing: {file.name}")
     process_image(file)
+
+    print(f"Done: {file.name}")
+
+print(f"All files finished")
+
